@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>js</title>
+  
+  
+  
+  <script type="text/javascript">
+  let angkot = 10
+  let angkotAman = 6
+  let nomor = 1
+  
+ // latihan 1
+ /*
+  while(nomor <= angkot) {
+    console.log(`Angkot No. ${nomor} beroperasi dengan baik`)
+    nomor++
+  }
+  */
+  
+   // Latihan 2
+   console.log(' latihan 2')
+  while(nomor <= angkotAman) {
+    console.log(`Angkot No. ${nomor} beroperasi dengan baik.`);
+    nomor++;
+    }
+    for (nomor = angkotAman + 1; nomor <= angkot; nomor++) {
+      console.log(`Angkot No. ${nomor} sedang tidak beroperasi`)
+  }
+    
+    
+    // latihan 3 
+    console.log(' latihan 3')
+   for (let nomor = 1; nomor <= angkot; nomor++) {
+      if (nomor <= angkotAman) {
+        console.log(`Angkot No. ${nomor} beroperasi dengan baik.`)
+      } else {
+        console.log(`Angkot No. ${nomor} sedang tidak beroperasi`)
+      }
+    }
+    
+    
+    // latihan 4 
+    console.log('latihan 4')
+    for (nomor = 1; nomor <= angkot; nomor++){
+      if(nomor <= angkotAman) {
+        console.log(`Angkot no. ${nomor} beropasi dengan baik`)
+      } else if (nomor == 8) {
+        console.log(`Angkot no. ${nomor} sedang lembur`)
+      } else {
+        console.log(`Angkot no ${nomor} sedang tidak beroperasi`)
+      }
+    }
+    
+    
+    //latihan 5
+   
+    console.log('latihan 5')
+    for (nomor = 1; nomor <= angkot; nomor++){
+      if(nomor <= angkotAman) {
+        console.log(`Angkot no. ${nomor} beropasi dengan baik`)
+      } else if (nomor == 8 || nomor == 10) {
+        console.log(`Angkot no. ${nomor} sedang lembur`)
+      } else {
+        console.log(`Angkot no ${nomor} sedang tidak beroperasi`)
+      }
+    }
+    
+    
+    //latihan 6 
+    console.log('latihan 6')
+    for(nomor = 1; nomor <= angkot; nomor++){
+      if( nomor <= angkotAman && nomor != 5) {
+        console.log(`Angkot no. ${nomor} beroprasi dengan baik`)
+      } else if (nomor == 8 || nomor == 10 || nomor == 5 ) {
+        console.log(`Angkot no.${nomor} sedang lembur`)
+      } else{
+        console.log(`Angkot no. ${nomor} sedang tidak beroprasi`)
+      }
+    }
+    
+    
+    
+    
+    
+   // latihan Perulanagn
+   /*
+   let s = '';
+   for (let i = 0; i < 10; i++) {
+     for (let j = 0; j < i; j++) {
+       s += '*';
+     }
+   s += '\n'
+   }
+   for (let i = 10; i > 0; i--) {
+     for (let j = 0; j < i; j++){
+       s += '*';
+     }
+     s += '\n'
+   }
+   console.log(s)
+   */
+   
+  // latihan
+ /*
+  let baris = 10
+  let tampung = ''
+  for (let i = 0; i <= baris; i++){
+      for (let j = baris; j > i; j--){
+      tampung += ' '
+  }
+    for (let k = 0; k < i; k++){
+      tampung += '#'
+  }
+     tampung += '\n'
+}
+console.log(tampung)
+*/
+  
+  /*
+  for (let i = baris; i >= 0; i--){
+      for (let j = baris; j > i; j--){
+      tampung += ' '
+  }
+    for (let k = 0; k < i; k++){
+      tampung += '#'
+  }
+     tampung += '\n'
+}
+  console.log(tampung);
+  */
+  
+  /*
+  function tampilkan(n) {
+    if (n === 100) return;
+    console.log(n);
+    return tampilkan(n+1);
+  }
+  tampilkan(1);
+  */
+/*
+  function tampilkann(n) {
+    let hasil
+    for (let u = 1; u <= n; u++) {
+      hasil = u * n
+      console.log(hasil)
+      coba = hasil + 10
+      console.log(`ini hasil coba ${coba}`)
+    }
+    return hasil
+  }
+  tampilkann(5)
+  /*
+  tampilkann(10)
+  tampilkann(50)
+ */
+ 
+ alert('good anying brother')
+let lagi = true
+ while( lagi === true ) {
+   var nama = prompt('Asupkeun ngaran ente kadang kadang ')
+   alert(` ${nama} ngaran teh siga nu eweh dei we`)
+   
+   lagi = confirm('deui')
+ }
+ alert('nuhun')
+ 
+ 
+  </script>
+</head>
+<body>
+  
+</body>
+</html>
